@@ -1,0 +1,8 @@
+name selector
+h1{
+    background-color: aqua;
+}
+id selector
+#one{
+    background-color: azure;
+}
