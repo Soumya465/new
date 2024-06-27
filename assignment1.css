@@ -1,4 +1,7 @@
-.nav{
+
+body{
+    background-color: floralwhite;
+}.nav{
     
     height: 30px;
    display:flex;
@@ -14,13 +17,30 @@ a{
 }
 span{
     padding: 10px 30px;
-    -webkit-text-fill-color: aliceblue;
+    -webkit-text-fill-color: green;
 }
 button{
    
     -webkit-text-fill-color: aliceblue;
    background-color:orangered;
     padding: 0.5%;
-
-  
+}
+@media (max-width: 800px) {
+    .nav{
+        height: auto;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        border-style: red solid;
+    }
+    
+}
+@media (max-width: 800px)  {
+    #span{
+        flex-direction: column;
+        height: 15px;
+       align-items: center;
+        display: flex;
+        border-style: 5px red outset;
+    }
 }
