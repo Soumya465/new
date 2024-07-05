@@ -1,0 +1,111 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+
+
+header{
+     height: 100vh;
+     background-image: url(https://www.sodiuswillert.com/hs-fs/hubfs/Images/Imported_Blog_Media/collaboration-software-development_1200x628px.png?width=1200&name=collaboration-software-development_1200x628px.png);
+     margin: 0px;
+     padding: 0px;
+
+}
+/*nav{
+     margin: 0px;
+     padding: 0px;
+
+}*/
+   .One{
+     
+          height: 150px;
+          width: 100%;
+          background-color:black;
+         color: white;
+}
+.One{
+    padding-top: 13px;
+     height: 100px;
+     color: white;
+     text-align: center;
+     line-height: 40px;
+}
+.Menu{
+     background-color: midnightblue;
+    justify-content: center;
+     height: 30px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    
+ }
+ .Menu a{
+     margin: 0 20px;
+     text-decoration: none;
+     line-height: 30px;
+     color: white;
+    
+ }
+ .Menu a:hover{
+     color: red;
+ }
+
+ .Two{
+    padding-top: 520px;
+    display: flex;
+    padding-left: 140px;
+    margin: 20px;
+    padding-right: 140px;
+  
+   }
+   
+  
+ .Two div{
+     margin: 40px;
+    justify-content: space-evenly;
+    margin: 0 20px;
+    box-shadow: 0,2px,4px 0 rgba(0, 0, 0, 2);
+    border: 1px solid gray;
+    background-color: aquamarine;
+ 
+
+   
+ }
+ /*div.box{
+    
+     width: 100%;
+     justify-content: space-around;
+     display: flex;
+     padding-left: 150px;
+   
+
+ }
+ .Two
+ {
+     width: 250px;
+     text-align: center;
+     margin-top: 30px;
+     border: 1px solid gray;
+ }*/
+ .Two img{
+     width: 100%;
+ }
+ 
+
+.footer {
+     background-color: plum;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    height: 40px;
+    line-height: 40px;
+}
+.footer a{
+     line-height: 40px;
+     justify-content: space-between;
+     margin: 0 20px;
+}
+.footer a:hover{
+     color:red;
+}
+
