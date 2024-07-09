@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+.carousel-inner{
+   margin: 90px;
+}
+.carousel-item active{
+    display: flex;
+    justify-content: center;
+    margin: 500px;
+}
+ h5{
+    color: cyan;
+}
