@@ -1,0 +1,15 @@
+.parent{
+    display: grid;
+    gap: 50px;
+    border:2px salmon;
+height: 90vh;
+grid-template-columns: 300px 300px 200px;
+/* grid-template-rows:200px 200px 200px; */
+grid-auto-rows: 50px;
+grid-template-columns: 300px 1fr 1fr;
+
+}
+.child{
+    background-color: aqua;
+    border: 2px slategrey;
+}
